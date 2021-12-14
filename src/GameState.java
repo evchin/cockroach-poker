@@ -1,0 +1,13 @@
+public enum GameState {
+    NEW_ROUND,
+    PLAYER_PROPOSE,
+    PLAYER_CLAIM,
+    PLAYER_TURN,
+    PLAYER_ACCEPT,
+    PLAYER_REVEAL,
+    PLAYER_PASS,
+    AI_PROPOSE,
+    AI_TURN,
+    AI_ACCEPTS,
+    END;
+}
